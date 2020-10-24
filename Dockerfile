@@ -55,5 +55,4 @@ COPY --from=BUILD /opswat /opswat
 
 # Configure
 WORKDIR /opswat
-RUN chmod +x run
 ENTRYPOINT ["sh","/opswat/run"]
